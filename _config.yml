@@ -1,6 +1,6 @@
 domian: turbulence-research-lab.github.io
 baseurl: "/info" # the subpath of your site, e.g. blog/
-url: "https://turbulence-research-lab/" # the base hostname & protocol for your site, e.g. http://example.com/
+url: "https://turbulence-research-lab/info/" # the base hostname & protocol for your site, e.g. http://example.com/
 
 title: Northendlab Jekyll | Personal Blog Template
 description: >- # this means to ignore newlines until "baseurl:"
