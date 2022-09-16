@@ -10,9 +10,9 @@ menu:
     - name: 分类
       submenu:
       - name : 须知
-        url : "/tag/须知"
+        url : "/info/tag/须知"
       - name : 服务器
-        url : "/tag/服务器"
+        url : "/info/tag/服务器"
 
   ##########################
 
