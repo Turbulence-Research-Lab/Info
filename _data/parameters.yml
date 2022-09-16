@@ -1,0 +1,64 @@
+########################### Navigation ###################################
+menu:
+  # main menu
+  main:
+    - { name: 首页, url: "/" }
+    - { name: 工具, url: "tools.html" }
+
+  ##### Dropdown menu ######
+
+    - name: 分类
+      submenu:
+      - name : 须知
+        url : "/tag/须知"
+      - name : 服务器
+        url : "/tag/服务器"
+
+  ##########################
+
+  # Footer menu
+  # footer:
+  #   - { name: Home, url: "/" }
+  #   - { name: Contact, url: "contact.html" }
+  #   - { name: Tools, url: "tools.html" }
+
+######################### Default Parameters ###########################
+
+# logo
+logo: "/assets/images/logo.svg"
+# meta data
+author: "Themefisher"
+description: "This is meta description"
+# google analitycs ID
+google_analitycs_id: "" # your id
+# contact form action
+contact_form_action: "#" # contact form works with : https://formspree.io
+# copyright
+copyright: "Copyright &copy; 2022 Designed and Developed by [Themefisher](https://themefisher.com)"
+
+# preloader
+preloader:
+  enable: true
+  preloader: "" # use png, jpg, svg or gif format
+
+# search
+search:
+  enable: true
+
+############################## Social Site ##########################
+social:
+  - name: "facebook"
+    icon: "ti-facebook" # themify icon pack https://themify.me/themify-icons
+    link: "#"
+
+  - name: "twitter"
+    icon: "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+    link: "#"
+
+  - name: "github"
+    icon: "ti-github" # themify icon pack https://themify.me/themify-icons
+    link: "#"
+
+  - name: "linkedin"
+    icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+    link: "#"
