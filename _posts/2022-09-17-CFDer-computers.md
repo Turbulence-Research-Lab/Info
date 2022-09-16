@@ -300,11 +300,11 @@ gcc: error: unrecognized command-line option ‘--showme:link’
 
 - 比如使用 matlab 图形化界面，在 MobaXterm 命令行窗口，直接输入 matlab
 
-![](https://files.mdnice.com/user/17387/e7d68c77-d4c6-4496-a008-0d9830807355.png)
+![](/info/media/imag/post-2022-09-17/e7d68c77-d4c6-4496-a008-0d9830807355.png)
 
 - 比如用 firefox 连个网，冲个浪呀，直接输入 firefox, 很爽
 
-![](https://files.mdnice.com/user/17387/a47e3ad6-5de9-4112-953d-95de9fa28ced.png)
+![](/info/media/imag/post-2022-09-17/a47e3ad6-5de9-4112-953d-95de9fa28ced.png)
 
 - 有时，在安装新软件有图形界面时候，因为需要在系统盘写入，要加 sudo，可能会不成功，并且报下列错误
 
@@ -328,11 +328,11 @@ sudo cp ~/.Xauthority /root/
 
 - 前提先连上校园网，运行 matlab, 出现以下情况时，直接点击 Next
 
-![](https://files.mdnice.com/user/17387/072cb36b-6e37-4736-80db-11625008ac3d.png)
+![](/info/media/imag/post-2022-09-17/072cb36b-6e37-4736-80db-11625008ac3d.png)
 
 - 按步骤，根据清华邮箱激活即可，如果没有注册，可以用邮箱注册。
 
-![](https://files.mdnice.com/user/17387/0108e4b9-88ad-4c1b-ae40-d45d75be775f.png)
+![](/info/media/imag/post-2022-09-17/0108e4b9-88ad-4c1b-ae40-d45d75be775f.png)
 
 另外，在安装 matlab 的时候，请选择网络版安装，不要使用清华邮箱激活安装，否则只能是安装的用户可以打开 matlab, 其他用户不能打开。安装网络版后，再将 licenses 中的 network.lic 文件删除即可，这样就可以让其他用户通过自己清华账户激活并离线使用。网络版安装流程(网络版必须联网才能使用，不方便)，见[清华 matlab 安装手册](http://its.tsinghua.edu.cn/ggrj.jsp?urltype=tree.TreeTempUrl&wbtreeid=1079)（仅校园内网访问）。
 
@@ -349,11 +349,11 @@ sudo cp ~/.Xauthority /root/
 
 - 自动跳转后，把网址中的ac_id=1 改成 ac_id=159 或者163（不同位置的电脑可能不一样，159和163出现的比较多，大家可以留意一下自己成功登录后ac_id是多少，大家可以把一些**其他 ac_id 留言分享一下哈**）
 
-![](https://files.mdnice.com/user/17387/6e8117eb-3deb-49e8-8826-ad075754d34b.png)
+![](/info/media/imag/post-2022-09-17/6e8117eb-3deb-49e8-8826-ad075754d34b.png)
 
 - 另外一种就是通过[清华校园网自服务https://usereg.tsinghua.edu.cn/login.php](https://usereg.tsinghua.edu.cn/login.php)的准入功能-准入代认证。
 
-![](https://files.mdnice.com/user/17387/58dbd406-fe46-4c6b-847c-0d03016695c1.png)
+![](/info/media/imag/post-2022-09-17/58dbd406-fe46-4c6b-847c-0d03016695c1.png)
 ipv4/ipv6填要联网电脑的IP地址.ipv4与ipv6均可  
 passwd 填写自己的校园网账号的密码  
 一定要选**校外！校外！校外！**  
