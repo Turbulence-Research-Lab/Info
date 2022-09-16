@@ -96,24 +96,39 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto px-0">
-        <h2 class="mb-4">Posts are showing from <span class="text-primary">须知</span></h2>
+        <h2 class="mb-4">Posts are showing from <span class="text-primary">服务器</span></h2>
         <div class="bg-white shadow block">
           
           <article class="mb-5">
-  <h2 class="h4"><a class="post-title" href="/info/post/welcome-to-trl.html">入组须知</a></h2>
+  <h2 class="h4"><a class="post-title" href="/info/post/oneapi.html">CFDer工作站配置之OneAPI</a></h2>
   <div class="mb-3 post-meta">
     
     <a href="/info/author/admin">Admin</a>,
-    Sep 15, 2022,
+    Sep 16, 2022,
     
     
-    <a href="/info/tag/须知">须知</a>
+    <a href="/info/tag/服务器">服务器</a>
     
     
   </div>
-  <p>欢迎加入清华大学湍流实验室
-</p>
-  <a href="/info/post/welcome-to-trl.html" class="btn btn-sm btn-transparent pl-0">read more</a>
+  <p>近期，因为一批服务器的intel 编译器即使用parallel_studio_xe_2020的密钥过期，导致部分机器无法使用mpiifort,以及ifort等系列intel编译器。现在intel似乎不再提供密钥的更新，而是将xe中的功能集成到oneAPI中提供免费下载与使用。本推送主要介绍CFDer常用的oneAPI工具包在linux系统下的安装与配置。 oneAPI Toolkits intel官网提供的说明,点击阅读原文可链接官网 我们仅需要oneAPI Base Toolkit中的MKL库，以及oneAPI HPC Toolkit. 下载与安装 可以选择download, 跟随页面提示，选择下载版本。在这里我们的选择为： 在linux服务器上（前提已经连上校园网），可以通过官网提供的下载命令按照步骤安装即可 基础包（主要为了MKL） wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17769/l_BaseKit_p_2021.2.0.2883_offline.sh sudo bash l_BaseKit_p_2021.2.0.2883_offline.sh 高性能计算包(MPI, Fortran) wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17769/l_BaseKit_p_2021.2.0.2883_offline.sh sudo bash l_BaseKit_p_2021.2.0.2883_offline.sh 注意 基础包中，我们只需要MKL,其他的看自己的需求选择。在安装过程中选择Accept &amp;...</p>
+  <a href="/info/post/oneapi.html" class="btn btn-sm btn-transparent pl-0">read more</a>
+</article>
+          
+          <article class="mb-5">
+  <h2 class="h4"><a class="post-title" href="/info/post/CFDer-computers.html">CFDer新工作站配置的小白指南</a></h2>
+  <div class="mb-3 post-meta">
+    
+    <a href="/info/author/admin">Admin</a>,
+    Sep 16, 2022,
+    
+    
+    <a href="/info/tag/服务器">服务器</a>
+    
+    
+  </div>
+  <p>第一篇推送就是整理手头关于新工作站的配置工作的笔记。方便自己以后建站以及其他有需求的同学。 而工作站是每一个做流体的同学非常迫切需要的装备，不管是做数值还是实验，流体问题中要处理的数据量都是巨大的。恰巧，实验室最近新购置了几台服务器，我也跟着学习了一下，并且在大佬的帮助下，一边学习一边摸索地完成配置。下面就这次学习过程的笔记整理分享给大家，当然也有不太准确的地方，也恳请各位大佬指正。 Ubuntu 安装 如果已经安装了合适的 Ubuntu 版本，请忽略 下载合适的 Ubuntu 系统镜像， 我们选用 Ubuntu 20.04 LTS Desktop，可以从清华开源镜像网站(https://mirrors.tuna.tsinghua.edu.cn/#iso-download)下载. 准备一个空白 U 盘，制作启动盘，这里推荐使用rufus(https://rufus.ie/zh/),按照官网傻瓜式一键制作 将 U 盘插入工作站，在开机启动页面时，进入 BIOS. 不同主板进入 BIOS 界面的快捷键不同，一般开机页面会有提示。进入 BIOS 后，把 U 盘的启动顺序放到第一位，即可。保存修改，退出。 系统将进入...</p>
+  <a href="/info/post/CFDer-computers.html" class="btn btn-sm btn-transparent pl-0">read more</a>
 </article>
           
         </div>

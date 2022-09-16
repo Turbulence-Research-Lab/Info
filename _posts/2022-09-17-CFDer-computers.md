@@ -3,8 +3,8 @@ title:  "CFDer新工作站配置的小白指南"
 image : "/assets/images/post/post-1.jpg"
 author: "Admin"
 date: 2022-09-16 11:12:58 +0600
-description : "This is meta description"
-tags: [须知]
+description : "配置新工作站"
+tags: [服务器]
 ---
 第一篇推送就是整理手头关于新工作站的配置工作的笔记。方便自己以后建站以及其他有需求的同学。
 

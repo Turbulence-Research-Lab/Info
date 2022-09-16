@@ -1,13 +1,13 @@
 ####################### banner #######################################
 banner:
   enable: true
-  title: "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
+  title: "欢迎进入清华大学湍流实验室信息门户"
   image: "/assets/images/banner/illustration.svg"
   bg_image: "/assets/images/banner/banner-bg.svg"
 
 ######################## call to action ###############################
 call_to_action:
-  enable: true
+  enable: false
   title: "Get the best jekyll templates"
   image: "/assets/images/jekyll-muscot.svg"
   description: "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
