@@ -1,7 +1,7 @@
 ####################### banner #######################################
 banner:
   enable: true
-  title: "欢迎进入清华大学湍流实验室信息门户"
+  title: "欢迎进入清华大学湍流实验室信息资源门户"
   image: "/assets/images/banner/illustration.svg"
   bg_image: "/assets/images/banner/banner-bg.svg"
 
