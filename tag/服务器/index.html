@@ -111,7 +111,7 @@
     
     
   </div>
-  <p>近期，因为一批服务器的intel 编译器即使用parallel_studio_xe_2020的密钥过期，导致部分机器无法使用mpiifort,以及ifort等系列intel编译器。现在intel似乎不再提供密钥的更新，而是将xe中的功能集成到oneAPI中提供免费下载与使用。本推送主要介绍CFDer常用的oneAPI工具包在linux系统下的安装与配置。 oneAPI Toolkits intel官网提供的说明,点击阅读原文可链接官网 我们仅需要oneAPI Base Toolkit中的MKL库，以及oneAPI HPC Toolkit. 下载与安装 可以选择download, 跟随页面提示，选择下载版本。在这里我们的选择为： 在linux服务器上（前提已经连上校园网），可以通过官网提供的下载命令按照步骤安装即可 基础包（主要为了MKL） wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17769/l_BaseKit_p_2021.2.0.2883_offline.sh sudo bash l_BaseKit_p_2021.2.0.2883_offline.sh 高性能计算包(MPI, Fortran) wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17769/l_BaseKit_p_2021.2.0.2883_offline.sh sudo bash l_BaseKit_p_2021.2.0.2883_offline.sh 注意 基础包中，我们只需要MKL,其他的看自己的需求选择。在安装过程中选择Accept &amp;...</p>
+  <p>近期，因为一批服务器的intel 编译器即使用parallel_studio_xe_2020的密钥过期，导致部分机器无法使用mpiifort,以及ifort等系列intel编译器。现在intel似乎不再提供密钥的更新，而是将xe中的功能集成到oneAPI中提供免费下载与使用。本推送主要介绍CFDer常用的oneAPI工具包在linux系统下的安装与配置。 oneAPI Toolkits intel官网提供的说明,点击阅读原文可链接官网 我们仅需要oneAPI Base Toolkit中的MKL库，以及oneAPI HPC Toolkit. 下载与安装 可以选择download, 跟随页面提示，选择下载版本。在这里我们的选择为： 在linux服务器上（前提已经连上校园网），可以通过官网提供的下载命令按照步骤安装即可 基础包（主要为了MKL） wget https://registrationcenter-download.intel.com/akdlm/irc_nas/18673/l_BaseKit_p_2022.2.0.262_offline.sh sudo sh ./l_BaseKit_p_2022.2.0.2 高性能计算包(MPI, Fortran) wget https://registrationcenter-download.intel.com/akdlm/irc_nas/18679/l_HPCKit_p_2022.2.0.191_offline.sh sudo sh ./l_HPCKit_p_2022.2.0.19 如果官网有最新版本，请下载最新版本 注意 基础包中，我们只需要MKL,其他的看自己的需求选择。在安装过程中选择Accept...</p>
   <a href="/info/post/oneapi.html" class="btn btn-sm btn-transparent pl-0">read more</a>
 </article>
           
@@ -152,13 +152,7 @@
       <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
         <ul class="list-inline social-icon mb-0">
           
-          <li class="list-inline-item"><a href="/info/"><i class="ti-facebook"></i></a></li>
-          
-          <li class="list-inline-item"><a href="/info/"><i class="ti-twitter-alt"></i></a></li>
-          
-          <li class="list-inline-item"><a href="/info/"><i class="ti-github"></i></a></li>
-          
-          <li class="list-inline-item"><a href="/info/"><i class="ti-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="https://github.com/Turbulence-Research-Lab"><i class="ti-github"></i></a></li>
           
         </ul>
       </div>

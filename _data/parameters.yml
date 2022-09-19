@@ -47,18 +47,18 @@ search:
 
 ############################## Social Site ##########################
 social:
-  - name: "facebook"
-    icon: "ti-facebook" # themify icon pack https://themify.me/themify-icons
-    link: "#"
+  # - name: "facebook"
+  #   icon: "ti-facebook" # themify icon pack https://themify.me/themify-icons
+  #   link: "#"
 
-  - name: "twitter"
-    icon: "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
-    link: "#"
+  # - name: "twitter"
+  #   icon: "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+  #   link: "#"
 
   - name: "github"
     icon: "ti-github" # themify icon pack https://themify.me/themify-icons
-    link: "#"
+    link: "https://github.com/Turbulence-Research-Lab"
 
-  - name: "linkedin"
-    icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
-    link: "#"
+  # - name: "linkedin"
+  #   icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+  #   link: "#"

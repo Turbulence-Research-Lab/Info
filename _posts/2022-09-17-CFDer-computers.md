@@ -1,6 +1,6 @@
 ---
 title:  "CFDer新工作站配置的小白指南"
-image : "/assets/images/post/post-1.jpg"
+# image : "/assets/images/post/post-1.jpg"
 author: "Admin"
 date: 2022-09-16 11:12:58 +0600
 description : "配置新工作站"
@@ -337,7 +337,7 @@ sudo cp ~/.Xauthority /root/
 另外，在安装 matlab 的时候，请选择网络版安装，不要使用清华邮箱激活安装，否则只能是安装的用户可以打开 matlab, 其他用户不能打开。安装网络版后，再将 licenses 中的 network.lic 文件删除即可，这样就可以让其他用户通过自己清华账户激活并离线使用。网络版安装流程(网络版必须联网才能使用，不方便)，见[清华 matlab 安装手册](http://its.tsinghua.edu.cn/ggrj.jsp?urltype=tree.TreeTempUrl&wbtreeid=1079)（仅校园内网访问）。
 
 2. FFTW
-   这个在Intel PSXE中的mkl已经自带，加载Intel PSXE环境后，只需要在编译的时候添加以下编译选项即可
+   这个在oneAPI中的mkl已经自带，加载oneAPI环境后，只需要在编译的时候添加以下编译选项即可
 
 ```
 -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -liomp5 -lmkl_intel_thread
@@ -382,5 +382,4 @@ export LANG=zh_CN
 
 - 以上只能解决我在安装过程中遇到的绝大部分问题，如果遇到其他问题，还请自行百度解决。多多摸索。
 - 以上内容只是在我有限能力情况下提供的一种解决方案，但绝对不是最优方案。
-- 最近才发现可以用[Markdown Nice(https://editor.mdnice.com/)](https://editor.mdnice.com/) 作推送，以后笔记可以用markdown写了，这样也不用重新编辑再发送，节约时间。而且对公式支持也很nice!
 
