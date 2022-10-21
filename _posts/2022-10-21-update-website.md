@@ -3,7 +3,7 @@ title:  "如何在信息门户上添加新内容"
 # image : "/assets/images/post/post-1.jpg"
 author: "Admin"
 date: 2022-10-21 11:12:58 +0600
-description : "配置新工作站"
+description : "管理和维护网站"
 tags: [网站管理]
 ---
 
@@ -50,8 +50,40 @@ cd info
 ```
 3. 运行
 ```
-bundle exec jekyll serve
+bash _run.sh
 ```
 4. 在浏览器中查看[http://127.0.0.1:5555/info](http://127.0.0.1:5555/info)即可。
 
+## 修改内容
+### 添加post
+在_posts目录中参考以往案例，添加新的md文档。
 
+### 添加导航
+
+在_data/parameters.yml中添加和维护
+
+## 编译运行
+这里存在两个shell脚本:
+
+_run.sh 删除旧的tag目录，并生成新的tag目录，并将新的tag目录复制到当前根目录
+_runtest.sh 删除旧的tag目录。
+
+由于Github不支持tag，我们提前运行
+```
+bash _run.sh
+```
+退出后，在当前根目录下会出现tag目录(注：jekyll编译生成的静态网页在_site目录中，其中根目录中名字前带有下划线“_”的文件和文件夹均为在_site中生成.)
+
+## 同步本地仓库到Github远程仓库
+1. 添加所有修改过的文件
+```
+git add .
+```
+2. 提交修改记录
+```
+git commit -m "修改内容描述"
+```
+3. 将当地修改推送到Github远程仓库
+```
+git push remote orig 
+```
