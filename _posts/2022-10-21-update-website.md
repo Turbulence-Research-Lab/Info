@@ -66,6 +66,7 @@ bash _run.sh
 这里存在两个shell脚本:
 
 _run.sh 删除旧的tag目录，并生成新的tag目录，并将新的tag目录复制到当前根目录
+
 _runtest.sh 删除旧的tag目录。
 
 由于Github不支持tag，我们提前运行
@@ -88,4 +89,4 @@ git commit -m "修改内容描述"
 git push
 ```
 
-如果在同步过程中出现网络原因，建议使用ssh. ssh的配置流程可见
+如果在同步过程中出现网络原因，建议使用ssh。 ssh的配置流程可见[通过 SSH 连接到 GitHub](https://docs.github.com/cn/authentication/connecting-to-github-with-ssh)。
