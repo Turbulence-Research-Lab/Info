@@ -85,5 +85,7 @@ git commit -m "修改内容描述"
 ```
 3. 将当地修改推送到Github远程仓库
 ```
-git push remote orig 
+git push
 ```
+
+如果在同步过程中出现网络原因，建议使用ssh. ssh的配置流程可见
