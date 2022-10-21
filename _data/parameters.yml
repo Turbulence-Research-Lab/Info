@@ -13,6 +13,8 @@ menu:
         url : "/info/tag/须知"
       - name : 服务器
         url : "/info/tag/服务器"
+      - name : 网站管理
+        url : "/info/tag/网站管理"
 
   ##########################
 
