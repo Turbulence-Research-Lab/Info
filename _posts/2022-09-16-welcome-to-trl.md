@@ -27,7 +27,7 @@ tags: [须知]
 
 
 ## 组内代码开发与书写规范
-目前正在整合组内相关代码，计划在五年内(2022-2027)建成组内共享的代码库。方便组内同学与老师在此基础上开展更加深入、具有挑战和具有创造力的基础前沿科学研究。
+目前正在整合组内相关代码，计划在五年内(2023-2027)建成组内共享的代码库。方便组内同学与老师在此基础上开展更加深入、具有挑战和具有创造力的基础前沿科学研究。
 
 研发进展：
 1. 初步建立C++代码规范，具体参见[https://github.com/Turbulence-Research-Lab/code_specification](https://github.com/Turbulence-Research-Lab/code_specification)。
