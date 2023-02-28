@@ -19,6 +19,8 @@ menu:
         url : "/info/tag/编译选项"
       - name : 软件安装
         url : "/info/tag/软件安装"
+      - name : 测试
+        url : "/info/tag/测试"
 
   ##########################
 
