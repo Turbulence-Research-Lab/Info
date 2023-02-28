@@ -7,7 +7,43 @@ description : "管理和维护网站"
 tags: [网站管理]
 ---
 
-本网站采用Github Page自带的Jekyll服务。理论上可以直接在本网站[代码仓库](https://github.com/Turbulence-Research-Lab/info)中进行文件添加或者修改，待网站自动执行Jekyll服务，网站的内容也就随之更新。但是，由于Github Page出于安全性考虑，Jekyll-tagging 插件的功能被禁用，即网站中自动分类栏目失效。为了更加完整地运行和使用网站，建议先通过本地编译生成tag目录，再上传同步到github上。具体流程如下：
+本网站采用Github Page自带的Jekyll服务。理论上可以直接在本网站[代码仓库](https://github.com/Turbulence-Research-Lab/info)中进行文件添加或者修改，待网站自动执行Jekyll服务，网站的内容也就随之更新。但是，由于Github Page出于安全性考虑，Jekyll-tagging 插件的功能被禁用，即网站中自动分类栏目失效。为了更加完整地运行和使用网站，需要编译生成tag目录，再上传同步到github上。具体方案有两种，一种是利用github codespace(推荐), 另一种同步到本地：
+
+# 利用GitHub codespace
+
+## 管理员
+- 对于管理员，可以直接在群组info上直接修改，无需通过PR操作
+![](/info/media/imag/2022-10-21-update-website/update_website_1.png)
+- 进入codespace, 检查配置，可在终端中允许
+```
+bash _run.sh
+```
+- 修改对应的内容，比如在_posts下添加或修改文件，在media下添加或修改图片
+- 如果需要添加新的tag,需要在_data/parameters.yml中添加对应的tag分类目录，参考已有格式即可。
+- 保存修改后,运行_run.sh 生产tag分类目录
+```
+bash _run.sh
+```
+- 提交代码（两种途径）
+    1. 终端
+        1. 添加所有修改过的文件
+        ```
+        git add .
+        ```
+        2. 提交修改记录
+        ```
+        git commit -m "修改内容描述"
+        ```
+        3. 将当地修改推送到Github远程仓库
+        ```
+        git push
+        ```
+    2. vscode GUI界面 
+        1. commit
+        ![](/info/media/imag/2022-10-21-update-website/update_website_2.png)
+        2. 
+
+# 本地同步
 
 ## 安装和配置Jekyll
 
