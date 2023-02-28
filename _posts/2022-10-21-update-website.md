@@ -40,13 +40,17 @@ bash _run.sh
         ```
     2. vscode GUI界面 （推荐）
         1. commit
+
         ![](/info/media/imag/2022-10-21-update-website/update_website_2.png)
+        
         2. 点击同步 sync changes
 
 ## 非管理员
 - 需要先fork到自己的repo下，然后，使用codespaces如上（略）
 - PR到Turbulence-Research-Lab/info 主分支
-    ![](/info/media/imag/2022-10-21-update-website/update_website_2.png)
+
+    ![](/info/media/imag/2022-10-21-update-website/update_website_3.png)
+
 - 等待管理员确认即可
 
 # 本地同步
