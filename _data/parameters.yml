@@ -21,7 +21,8 @@ menu:
         url : "/info/tag/软件安装"
       - name : 测试
         url : "/info/tag/测试"
-
+      - name : 网络
+        url : "/info/tag/网络"
   ##########################
 
   # Footer menu
